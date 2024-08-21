@@ -1,0 +1,312 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.40f1 (6fcab7dbbbc1) revision 7326391'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit CoreCountrySpecific' Language: 'zh' Physical Memory: 16108 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.3.40f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+D:/unity/prototype/7381-prototype
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+60865
+Successfully changed project path to: D:/unity/prototype/7381-prototype
+D:/unity/prototype/7381-prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6180] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 275826430 [EditorId] 275826430 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6180] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 275826430 [EditorId] 275826430 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 82.41 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.40f1 (6fcab7dbbbc1)
+[Subsystems] Discovering subsystems at path D:/unity/2021.3.40f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity/prototype/7381-prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   31.0.15.5123
+Initialize mono
+Mono path[0] = 'D:/unity/2021.3.40f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.3.40f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56864
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2021.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001386 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 264 ms
+Refreshing native plugins compatible for Editor in 82.89 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.808 seconds
+Domain Reload Profiling:
+	ReloadAssembly (808ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (673ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (543ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (336ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003096 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.101 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (98ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (188ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (542ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3239 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (46.8 KB). Loaded Objects now: 3723.
+Memory consumption went from 142.0 MB to 141.9 MB.
+Total: 2.356200 ms (FindLiveObjects: 0.188900 ms CreateObjectMapping: 0.102700 ms MarkObjects: 1.994100 ms  DeleteObjects: 0.069400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3953.302479 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Murals/Mural_02.mat
+  artifactKey: Guid(5d129a6c47060094e8549e1f5f535ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Murals/Mural_02.mat using Guid(5d129a6c47060094e8549e1f5f535ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908edb1c6157c8aebad5aebbc727f890') in 0.143391 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PortalsPackage/Meshes/Materials/No Name.mat
+  artifactKey: Guid(ae63f2eeaacb8884cb13e1058b537085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PortalsPackage/Meshes/Materials/No Name.mat using Guid(ae63f2eeaacb8884cb13e1058b537085) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db79c0e68a03a8a01ba44630cc1008c') in 0.031144 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PortalsPackage/MatAndText/Portal#11/New Material.mat
+  artifactKey: Guid(36706c9f186764c48b420cbc7601d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PortalsPackage/MatAndText/Portal#11/New Material.mat using Guid(36706c9f186764c48b420cbc7601d641) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3640206dfc8f1618e9ba344ad2b86421') in 0.052025 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 2.403855 seconds.
+  path: Assets/PolygonAncientEmpire/Models/SM_Prop_Seat_Bench_03.fbx
+  artifactKey: Guid(e17e907fa243589418d3cc0a118f6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Models/SM_Prop_Seat_Bench_03.fbx using Guid(e17e907fa243589418d3cc0a118f6f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc543831f1b3554bdb98e13888732f35') in 0.069556 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonAncientEmpire/Models/SM_Wep_Scabbard_01.fbx
+  artifactKey: Guid(e0fa55d4443e22d4c9e63b53bcd46ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Models/SM_Wep_Scabbard_01.fbx using Guid(e0fa55d4443e22d4c9e63b53bcd46ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee4a1161c2bd3a2de708f6c527d1a9d') in 0.025930 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.396698 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof.mat
+  artifactKey: Guid(f33d770fc2d69194a8f871506aa2fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof.mat using Guid(f33d770fc2d69194a8f871506aa2fb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd45df8f898d9aaf677491dad0d39285') in 0.073887 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof_09.mat
+  artifactKey: Guid(d1b8d4059c727164ebe09908b0243a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof_09.mat using Guid(d1b8d4059c727164ebe09908b0243a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfb8ff7de1aa65953e3d4dc457ea9d07') in 0.049242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof_06.mat
+  artifactKey: Guid(ca5a00ae3a0c369468c3ef28d9180a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Roof_06.mat using Guid(ca5a00ae3a0c369468c3ef28d9180a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11646618c542c353f63d66869e19574e') in 0.045607 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.564237 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/signs/tavern/Materials/SM_sign_alb.mat
+  artifactKey: Guid(3223b6af725bda64ab64cc543850b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/signs/tavern/Materials/SM_sign_alb.mat using Guid(3223b6af725bda64ab64cc543850b5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb234fb58f4fe266835ecfc89fd981bf') in 0.039356 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.314971 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/signs/fortification/Materials/SM_sign_alb.mat
+  artifactKey: Guid(0f81b824ba310504392c19ff9f46c2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/signs/fortification/Materials/SM_sign_alb.mat using Guid(0f81b824ba310504392c19ff9f46c2e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec9853229d1d6dc8e65e81f48ba7867c') in 0.045732 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Misc/Statue_Mat_01.mat
+  artifactKey: Guid(9a665ef92124a2747b55c9d3e02383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Misc/Statue_Mat_01.mat using Guid(9a665ef92124a2747b55c9d3e02383a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475754e61126d9ac92e03bd4932029d7') in 0.038569 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.024364 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Blue_Pattern_03.mat
+  artifactKey: Guid(5d08c7b036e4deb45ba7ff91a1efb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Blue_Pattern_03.mat using Guid(5d08c7b036e4deb45ba7ff91a1efb25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfbd1e37676da36de0bfec96113b8bf2') in 0.061295 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Orange_01.mat
+  artifactKey: Guid(d61863841a8069544a902fad957fe89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Orange_01.mat using Guid(d61863841a8069544a902fad957fe89c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f4795a46af692113bd6cc59303398f') in 0.063783 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Orange_Pattern_01.mat
+  artifactKey: Guid(c1cccd3212642924e91dd94b34007c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Orange_Pattern_01.mat using Guid(c1cccd3212642924e91dd94b34007c8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b473727dd0b258b48f1b05e69ed1a72') in 0.046966 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Red_Pattern_02.mat
+  artifactKey: Guid(2e8f3ce1643bb5e459b49e0ab575e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Stucco_Red_Pattern_02.mat using Guid(2e8f3ce1643bb5e459b49e0ab575e16b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcc655fe1880d34c7baee0af0ae59f45') in 0.045247 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.466392 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Base/Water.mat
+  artifactKey: Guid(2041aaf3173194f469894b67cbe15774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Base/Water.mat using Guid(2041aaf3173194f469894b67cbe15774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f30410a209fd4d40635a0c5a4b96a4') in 0.107673 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Window_01.mat
+  artifactKey: Guid(4e080dc694c23704c87090bce7bcc46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Window_01.mat using Guid(4e080dc694c23704c87090bce7bcc46d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7bf0267c8e641a9238dd38cb94dad6') in 0.040321 seconds 
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
