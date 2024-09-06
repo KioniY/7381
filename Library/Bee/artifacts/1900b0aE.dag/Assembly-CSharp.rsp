@@ -349,11 +349,16 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.VSCode.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
+"Assets/FS Loot Boxes/Assets/Scripts/LootBox.cs"
+"Assets/FS Loot Boxes/Demo/Demo Assets/TestPlayer.cs"
+"Assets/nTools/PrefabPainter/Scripts/PrefabPainterSceneSettings.cs"
+"Assets/nTools/PrefabPainter/Scripts/PrefabPainterSettings.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalDemoGUI.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalFX_AxisRotateByTime.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalFX_Turbulence.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalFX_UVAnimation.cs"
 "Assets/PortalsPackage/ScriptsAndShaders/PortalsFX_RandomMoves.cs"
+"Assets/Sci-fi_character_2/CameraY.cs"
 "Assets/Sci-fi_character_2/PayerControl1.cs"
 -langversion:9.0
 /deterministic

@@ -41,19 +41,39 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\FS Loot Boxes\Demo\Demo Assets\TestPlayer.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_UVAnimation.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_AxisRotateByTime.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalsFX_RandomMoves.cs" />
+    <Compile Include="Assets\nTools\PrefabPainter\Scripts\PrefabPainterSettings.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_Turbulence.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalDemoGUI.cs" />
+    <Compile Include="Assets\Sci-fi_character_2\CameraY.cs" />
     <Compile Include="Assets\Sci-fi_character_2\PayerControl1.cs" />
+    <Compile Include="Assets\FS Loot Boxes\Assets\Scripts\LootBox.cs" />
+    <Compile Include="Assets\nTools\PrefabPainter\Scripts\PrefabPainterSceneSettings.cs" />
+    <None Include="Assets\nTools\PrefabPainter\Shaders\GUITextureClipLevels.shader" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\PortalSky.shader" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Stones.json" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\PortalMask.shader" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\BlendHDR.shader" />
+    <None Include="Assets\Romans Pack - Low Poly (HA)\MATERIALS\Materials.txt" />
+    <None Include="Assets\Romans Pack - Low Poly (HA)\Welcome.txt" />
+    <None Include="Assets\Romans Pack - Low Poly (HA)\FBX FILES\What are these files.txt" />
+    <None Include="Assets\Vefects\Free Fire VFX URP\Shaders\SH_Vefects_VFX_URP_Heat_Haze_01.shader" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Decal Along Stroke.json" />
+    <None Include="Assets\Vefects\Free Fire VFX URP\Shaders\SH_Vefects_VFX_URP_Particles_Erosion_01.shader" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\Particle AddHDR.shader" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Decal Footsteps.json" />
+    <None Include="Assets\nTools\PrefabPainter\Docs\changelog.txt" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Tree.json" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Decal.json" />
+    <None Include="Assets\Vefects\Free Fire VFX URP\Shaders\SH_Vefects_VFX_URP_Fire_Flames_01.shader" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\DistortionCullBack.shader" />
+    <None Include="Assets\nTools\PrefabPainter\Presets\Random.json" />
     <None Include="Assets\Sci-fi_character_2\Shader\2sided.shader" />
     <None Include="Assets\SkySeries Freebie\Hdri setup.txt" />
+    <None Include="Assets\FS Loot Boxes\Documentation.txt" />
     <Reference Include="UnityEngine">
       <HintPath>D:\unity\2021.3.40f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
