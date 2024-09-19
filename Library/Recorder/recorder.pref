@@ -36,7 +36,7 @@ MonoBehaviour:
   m_Name: Movie
   m_EditorClassIdentifier: 
   enabled: 1
-  take: 5
+  take: 7
   captureEveryNthFrame: 1
   fileNameGenerator:
     m_Path:
@@ -114,11 +114,11 @@ MonoBehaviour:
   m_AudioInputSettings:
     preserveAudio: 1
   _accumulationSettings:
-    rid: 1452570728152694784
+    rid: 8547940125916004352
   references:
     version: 2
     RefIds:
-    - rid: 1452570728152694784
+    - rid: 8547940125916004352
       type: {class: AccumulationSettings, ns: , asm: Unity.Recorder.Editor}
       data:
         captureAccumulation: 0
