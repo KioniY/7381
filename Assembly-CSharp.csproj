@@ -44,15 +44,16 @@
     <Compile Include="Assets\FS Loot Boxes\Demo\Demo Assets\TestPlayer.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_UVAnimation.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_AxisRotateByTime.cs" />
+    <Compile Include="Assets\SceneController.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalsFX_RandomMoves.cs" />
     <Compile Include="Assets\nTools\PrefabPainter\Scripts\PrefabPainterSettings.cs" />
+    <Compile Include="Assets\AudioAndCameraController.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_Turbulence.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalDemoGUI.cs" />
     <Compile Include="Assets\Sci-fi_character_2\CameraY.cs" />
     <Compile Include="Assets\Sci-fi_character_2\PayerControl1.cs" />
     <Compile Include="Assets\FS Loot Boxes\Assets\Scripts\LootBox.cs" />
     <Compile Include="Assets\nTools\PrefabPainter\Scripts\PrefabPainterSceneSettings.cs" />
-    <Compile Include="Assets\SceneController.cs" />
     <None Include="Assets\nTools\PrefabPainter\Shaders\GUITextureClipLevels.shader" />
     <None Include="Assets\PortalsPackage\ScriptsAndShaders\PortalSky.shader" />
     <None Include="Assets\nTools\PrefabPainter\Presets\Stones.json" />
