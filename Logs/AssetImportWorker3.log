@@ -15,7 +15,7 @@ D:/unity/prototype/7381-prototype
 -logFile
 Logs/AssetImportWorker3.log
 -srvPort
-50776
+61736
 Successfully changed project path to: D:/unity/prototype/7381-prototype
 D:/unity/prototype/7381-prototype
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/unity/prototype/7381-prototype
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [20920] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 3242228475 [EditorId] 3242228475 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [22464] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 3206908308 [EditorId] 3206908308 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [20920] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 3242228475 [EditorId] 3242228475 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [22464] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 3206908308 [EditorId] 3206908308 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 124.15 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 3.86 ms.
+Refreshing native plugins compatible for Editor in 266.03 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 3.31 ms.
 Initialize engine version: 2021.3.40f1 (6fcab7dbbbc1)
 [Subsystems] Discovering subsystems at path D:/unity/2021.3.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/unity/prototype/7381-prototype/Assets
@@ -70,54 +70,54 @@ Initialize mono
 Mono path[0] = 'D:/unity/2021.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'D:/unity/2021.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/unity/2021.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56432
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/unity/2021.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: D:/unity/2021.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001493 seconds.
+Registered in 0.001713 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 360 ms
-Refreshing native plugins compatible for Editor in 98.77 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
+Android Extension - Scanning For ADB Devices 354 ms
+Refreshing native plugins compatible for Editor in 119.61 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.962 seconds
+- Completed reload, in  0.982 seconds
 Domain Reload Profiling:
-	ReloadAssembly (963ms)
-		BeginReloadAssembly (111ms)
+	ReloadAssembly (982ms)
+		BeginReloadAssembly (97ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (776ms)
-			LoadAssemblies (111ms)
+		EndReloadAssembly (819ms)
+			LoadAssemblies (97ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (83ms)
+			SetupTypeCache (88ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (20ms)
-			SetupLoadedEditorAssemblies (639ms)
+			RebuildScriptCaches (22ms)
+			SetupLoadedEditorAssemblies (678ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (438ms)
+				InitializePlatformSupportModulesInManaged (427ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (120ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (67ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadAttributes (79ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004947 seconds.
+Registered in 0.004829 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 93.23 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.09 ms.
+Refreshing native plugins compatible for Editor in 107.41 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 0.32 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -141,51 +141,51 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.536 seconds
+- Completed reload, in  1.354 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1537ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (1355ms)
+		BeginReloadAssembly (119ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (15ms)
-		EndReloadAssembly (1362ms)
-			LoadAssemblies (126ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (1162ms)
+			LoadAssemblies (119ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (227ms)
+			SetupTypeCache (246ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (947ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (726ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (94ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (746ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
-				AfterProcessingInitializeOnLoad (2ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (85ms)
+				ProcessInitializeOnLoadAttributes (497ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.18 ms, found 13 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 13 plugins.
+Preloading 3 native plugins for Editor in 0.12 ms.
 Unloading 5253 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 66 unused Assets / (0.7 MB). Loaded Objects now: 5717.
-Memory consumption went from 243.1 MB to 242.4 MB.
-Total: 3.689400 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.198000 ms MarkObjects: 2.966900 ms  DeleteObjects: 0.206200 ms)
+Memory consumption went from 243.9 MB to 243.3 MB.
+Total: 5.431000 ms (FindLiveObjects: 0.444800 ms CreateObjectMapping: 0.354900 ms MarkObjects: 4.268300 ms  DeleteObjects: 0.361200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -202,116 +202,473 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 6748.332216 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Base/Brick_Grey_Mat_01.mat
-  artifactKey: Guid(9c87aab3a2324054ba51c84af8b5d838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 5256.346691 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_fence_wooden_preset_01.fbx
+  artifactKey: Guid(1ca3279c29031e54d8cf118cca39d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Base/Brick_Grey_Mat_01.mat using Guid(9c87aab3a2324054ba51c84af8b5d838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43cd26631f3e6c1feefef1a025d05d82') in 0.129299 seconds 
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_fence_wooden_preset_01.fbx using Guid(1ca3279c29031e54d8cf118cca39d1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec524f5b6bd6540be51f97ea1197a3c') in 0.154827 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Marble_03.mat
+  artifactKey: Guid(b6a78307796e21748b0ab1007269c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Marble_03.mat using Guid(b6a78307796e21748b0ab1007269c95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54f24959110089f1d9ab8408f5e21c1') in 0.175205 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.012010 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/Brick_Mat_01.mat
-  artifactKey: Guid(855a51afc58acb343afddb825e9a0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000035 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_shelf_pottery.fbx
+  artifactKey: Guid(ff4c18f56033049499d2e5c05a356de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/Brick_Mat_01.mat using Guid(855a51afc58acb343afddb825e9a0414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54a9c4408d19d4921b3ec68728876c31') in 0.079889 seconds 
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_shelf_pottery.fbx using Guid(ff4c18f56033049499d2e5c05a356de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5446e062707528c398812b179b588dab') in 0.082763 seconds 
+Number of asset objects unloaded after import = 13
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_stand_cloth.fbx
+  artifactKey: Guid(f8e5d7b76abbbe8478b5673e60761e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_stand_cloth.fbx using Guid(f8e5d7b76abbbe8478b5673e60761e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589a2e5e4e72f5d8cabf2fded3865ccf') in 0.056955 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_stand_fruit.fbx
+  artifactKey: Guid(df7b7101547bce64fbf02f72e7d9fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_stand_fruit.fbx using Guid(df7b7101547bce64fbf02f72e7d9fb7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd689c20a7d0419b28c388cb67fbc4439') in 0.062804 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.286998 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_sword_gladius.fbx
+  artifactKey: Guid(d9ffd71fe4a53d8408d1703d6f03f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_sword_gladius.fbx using Guid(d9ffd71fe4a53d8408d1703d6f03f502) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d6809111c714ae503a3d505d0901a') in 0.026485 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_shield_roman_02.fbx
+  artifactKey: Guid(7fa49983ebef10b439e256cd16dce0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_shield_roman_02.fbx using Guid(7fa49983ebef10b439e256cd16dce0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0072970619a086fa4400378c367e8096') in 0.025779 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.825685 seconds.
+  path: Assets/Idyllic Rome/Materials/M_wall_stone 3.mat
+  artifactKey: Guid(804c7e75eaa3ee348a56f373daa46e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_wall_stone 3.mat using Guid(804c7e75eaa3ee348a56f373daa46e3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23b2241f5842d30a26bd97825e097a3') in 0.065925 seconds 
 Number of asset objects unloaded after import = 3
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_05.mat
-  artifactKey: Guid(1e578668904348f4f8d47971aebe544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000032 seconds.
+  path: Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Smoke_02.mat
+  artifactKey: Guid(53ffbbcb7f6882840a2ca2de114e4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_05.mat using Guid(1e578668904348f4f8d47971aebe544e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eddaede0e07059cf134a40234cb4ddf') in 0.121828 seconds 
+Start importing Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Smoke_02.mat using Guid(53ffbbcb7f6882840a2ca2de114e4bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+ -> (artifact id: '86d1b92b9e6a10abbc637ef6a0f84e86') in 0.055471 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Glow_01.mat
+  artifactKey: Guid(ac493e1c327eed74bb02b70a74d0486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Glow_01.mat using Guid(ac493e1c327eed74bb02b70a74d0486a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+ -> (artifact id: 'f065a97b1089d1fcee6a63d8e5d3b76c') in 0.046242 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.099927 seconds.
+  path: Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Fire_02.mat
+  artifactKey: Guid(b3e5c1b02fb6c4044905c64bfe617c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Vefects/Free Fire VFX URP/Materials/M_VFX_Fire_02.mat using Guid(b3e5c1b02fb6c4044905c64bfe617c18) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader error in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Couldn't open include file 'Packages/com.unity.render-pipelines.core/ShaderLibrary/Common.hlsl'. at line 77
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': Both vertex and fragment programs must be present in a shader snippet. Excluding it from compilation. at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+Shader warning in 'SH_Vefects_VFX_URP_Particles_Erosion_01': CGPROGRAM block does not contain #pragma vertex, #pragma fragment or #pragma surface directive, skipping at line 529
+
+Compiling Subshader: 0, Pass: ShadowCaster, Vertex program with <no keywords>
+Platform defines: SHADER_API_MOBILE UNITY_ASTC_NORMALMAP_ENCODING UNITY_ENABLE_REFLECTION_BUFFERS UNITY_HARDWARE_TIER3 UNITY_LIGHTMAP_RGBM_ENCODING UNITY_NO_CUBEMAP_ARRAY UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_PASS_SHADOWCASTER UNITY_PBS_USE_BRDF2
+Disabled keywords: INSTANCING_ON SHADER_API_GLES30 UNITY_COLORSPACE_GAMMA UNITY_ENABLE_DETAIL_NORMALMAP UNITY_ENABLE_NATIVE_SHADOW_LOOKUPS UNITY_FRAMEBUFFER_FETCH_AVAILABLE UNITY_HALF_PRECISION_FRAGMENT_SHADER_REGISTERS UNITY_HARDWARE_TIER1 UNITY_HARDWARE_TIER2 UNITY_LIGHTMAP_DLDR_ENCODING UNITY_LIGHTMAP_FULL_HDR UNITY_LIGHT_PROBE_PROXY_VOLUME UNITY_METAL_SHADOWS_USE_POINT_FILTERING UNITY_NO_DXT5nm UNITY_NO_FULL_STANDARD_SHADER UNITY_PBS_USE_BRDF1 UNITY_PBS_USE_BRDF3 UNITY_PRETRANSFORM_TO_DISPLAY_ORIENTATION UNITY_SPECCUBE_BLENDING UNITY_SPECCUBE_BOX_PROJECTION UNITY_UNIFIED_SHADER_PRECISION_MODEL UNITY_USE_DITHER_MASK_FOR_ALPHABLENDED_SHADOWS UNITY_VIRTUAL_TEXTURING _CASTING_PUNCTUAL_LIGHT_SHADOW
+ -> (artifact id: 'b7ecd2d7f589402138e51a0c69a5f49b') in 0.036398 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Idyllic Rome/Materials/M_trees_bark.mat
+  artifactKey: Guid(38c4239fb6ac1dc48a1901bc9b4470c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_trees_bark.mat using Guid(38c4239fb6ac1dc48a1901bc9b4470c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8db58efdd7309e4b5a67b285c6f42430') in 0.057885 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.459338 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_sidewalk_02.fbx
+  artifactKey: Guid(a172ff7886ccad342a5f5925b25a10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_sidewalk_02.fbx using Guid(a172ff7886ccad342a5f5925b25a10a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e698a08971313793f510c3ed8db97ab9') in 0.029855 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_staircase_01.fbx
+  artifactKey: Guid(4fa98469ab13f1046ad767160d5ab384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_staircase_01.fbx using Guid(4fa98469ab13f1046ad767160d5ab384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956f9e1e50cd3082481c945fc116c4e1') in 0.037644 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MATERIALS TILING/blocks_stone/M_stoneblocks_tiled.mat
+  artifactKey: Guid(4557c4cce2dd6b240aa1d303eeda4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MATERIALS TILING/blocks_stone/M_stoneblocks_tiled.mat using Guid(4557c4cce2dd6b240aa1d303eeda4d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0309627db2a402cde600869231f1f9ac') in 0.045289 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000099 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_08.mat
-  artifactKey: Guid(136d041782994a442b35088dbfce5f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.870752 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_hoplite_greek/snake/Materials/M_Shield_hoplite_alb.mat
+  artifactKey: Guid(1f77b3988c02c4d4ea969fbee8b050f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_08.mat using Guid(136d041782994a442b35088dbfce5f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621a38f957e4d8ae5b1b522f40984c5a') in 0.074181 seconds 
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_hoplite_greek/snake/Materials/M_Shield_hoplite_alb.mat using Guid(1f77b3988c02c4d4ea969fbee8b050f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b604bfd804db77fc788f32a4e975e5fb') in 0.038076 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_09.mat
-  artifactKey: Guid(6dfbfa07a1dea634c84de46ae2e61a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_hoplite_greek/persian/Materials/M_Shield_hoplite_alb.mat
+  artifactKey: Guid(8ffc0ca5848907641957c3151849f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_09.mat using Guid(6dfbfa07a1dea634c84de46ae2e61a30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c52a2269168377370d4dbe138fbb67e') in 0.052675 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/nTools/PrefabPainter/Examples/Materials/color_table.mat
-  artifactKey: Guid(92d8c628a5cf94850acd34717ce3d5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/nTools/PrefabPainter/Examples/Materials/color_table.mat using Guid(92d8c628a5cf94850acd34717ce3d5d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a6a425dd69cc4512aa09ff5f7f3080') in 0.155663 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_01.mat
-  artifactKey: Guid(5b0345b727c6a1c478dc0dc9f57897a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_01.mat using Guid(5b0345b727c6a1c478dc0dc9f57897a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '161fb3af600bc6868754af2c9ca5846e') in 0.067748 seconds 
-Number of asset objects unloaded after import = 2
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_03.mat
-  artifactKey: Guid(fd3c6b87d6bf8984b9932803d1d6cffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_03.mat using Guid(fd3c6b87d6bf8984b9932803d1d6cffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d8241187878ba3994af2bd42c55104') in 0.076814 seconds 
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_hoplite_greek/persian/Materials/M_Shield_hoplite_alb.mat using Guid(8ffc0ca5848907641957c3151849f690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8116223900ade683fb0380cc019ab9cd') in 0.045683 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
   Time since last request: 0.000019 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_06.mat
-  artifactKey: Guid(506b2ca08a706e3459193b0105511b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  path: Assets/Idyllic Rome/Materials/M_sculpture_female 1.mat
+  artifactKey: Guid(7ec8cc3b9177f074b951c8d290c69604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_06.mat using Guid(506b2ca08a706e3459193b0105511b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e04af8c51b2803cdae07d87e035a075f') in 0.082362 seconds 
+Start importing Assets/Idyllic Rome/Materials/M_sculpture_female 1.mat using Guid(7ec8cc3b9177f074b951c8d290c69604) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36da9e5cd68dfad7bac526ee69af0ca2') in 0.090020 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.053122 seconds.
+  path: Assets/Idyllic Rome/Materials/M_scrolls.mat
+  artifactKey: Guid(2d09169fc75ab9b42b7fd4295002c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_scrolls.mat using Guid(2d09169fc75ab9b42b7fd4295002c6f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f43560761311f1648178654cc96d2c') in 0.082509 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Idyllic Rome/Materials/M_rope 1.mat
+  artifactKey: Guid(53645ab3532588f4ca41874a778b6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_rope 1.mat using Guid(53645ab3532588f4ca41874a778b6d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c84e145e4be02972d7fe1d67ec57807') in 0.056897 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.878012 seconds.
+  path: Assets/Idyllic Rome/Meshes/Sculptures/SM_sculpture_putti_02.fbx
+  artifactKey: Guid(1e719fa10dd88754b8839455ffdd4811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Sculptures/SM_sculpture_putti_02.fbx using Guid(1e719fa10dd88754b8839455ffdd4811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927fa917f29924db618e3cacc3945db1') in 0.029920 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_pottery_bowl_01.fbx
+  artifactKey: Guid(da323f148843b52479d1868e7e39b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_pottery_bowl_01.fbx using Guid(da323f148843b52479d1868e7e39b3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db80f03d4c6f67b3f91e3c25d41b1e6') in 0.026155 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_pottery_plate.fbx
+  artifactKey: Guid(aa018538ea1b66046bf490519456f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_pottery_plate.fbx using Guid(aa018538ea1b66046bf490519456f343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ec33ead66c4c1414f2c8f75e1c558a5') in 0.022585 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_pottery_preset_03.fbx
+  artifactKey: Guid(d2372d7831e4eb445b60aae249a6e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_pottery_preset_03.fbx using Guid(d2372d7831e4eb445b60aae249a6e756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '613c1a286969b2f52751570f46f130cb') in 0.030078 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.128078 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_pottery_preset_05.fbx
+  artifactKey: Guid(f167335dd0e04b9439cf916fe71fd634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_pottery_preset_05.fbx using Guid(f167335dd0e04b9439cf916fe71fd634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b64e6dad67e9d39085f54f2f3249d5c') in 0.035401 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.297110 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_podest_rome_02.fbx
+  artifactKey: Guid(6dafa81ae5fbf7c49a5f45ea7f81f50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_podest_rome_02.fbx using Guid(6dafa81ae5fbf7c49a5f45ea7f81f50e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e8260962eeae53ddc77e11e665a2179') in 0.027641 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 3.000674 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_column_large_rome_02.fbx
+  artifactKey: Guid(5291b5730dfb7784eb3de1ab86e04a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_column_large_rome_02.fbx using Guid(5291b5730dfb7784eb3de1ab86e04a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2041f10ff08049da7f309b962161edf0') in 0.033761 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_column_large_rome_03.fbx
+  artifactKey: Guid(d35b93d72aa15ad4da9e2f00f5da2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_column_large_rome_03.fbx using Guid(d35b93d72aa15ad4da9e2f00f5da2f7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dec95393f9d3c12eb2fdc7ce0841ba86') in 0.031955 seconds 
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PortalsPackage/MatAndText/Portal#5/Lava/Lava.mat
+  artifactKey: Guid(89649c7c41b8da247ba7304e15ecaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PortalsPackage/MatAndText/Portal#5/Lava/Lava.mat using Guid(89649c7c41b8da247ba7304e15ecaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8114c3d6145aa528ea5e25e43e40e6d0') in 0.338881 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_vase_painted_02.fbx
+  artifactKey: Guid(e1d141227d13a364c9bda2718ac0432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_vase_painted_02.fbx using Guid(e1d141227d13a364c9bda2718ac0432a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73904fd80cda2602919920bd837f589') in 0.024894 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Idyllic Rome/Materials/M_banner_hanger.mat
+  artifactKey: Guid(a4cb845814b7ff74f956590cb1a4cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_banner_hanger.mat using Guid(a4cb845814b7ff74f956590cb1a4cd03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9c58978dc6369aad65048fc96fb4bc') in 0.081268 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 19.690869 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_16.mat
+  artifactKey: Guid(8469d9ab22f1e0d478751e1c81e11bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_16.mat using Guid(8469d9ab22f1e0d478751e1c81e11bc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b110b97316602200ace167b0ded469') in 0.144707 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Murals/Decal_04.mat
-  artifactKey: Guid(c6d32944acc9a944f881be30d3fb8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000017 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Tiles/Floor_Tiles_03.mat
+  artifactKey: Guid(0904ed36885310f4cb46e73d81356926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Murals/Decal_04.mat using Guid(c6d32944acc9a944f881be30d3fb8b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137d271428589a53ce03508291f1fa3e') in 0.077692 seconds 
+Start importing Assets/PolygonAncientEmpire/Materials/Tiles/Floor_Tiles_03.mat using Guid(0904ed36885310f4cb46e73d81356926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52781772aa2be6669a54c86290f694e0') in 0.115518 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Tiles/Floor_Tiles_02.mat
+  artifactKey: Guid(989a4d061db231f4db3ae7c49ba3f651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Tiles/Floor_Tiles_02.mat using Guid(989a4d061db231f4db3ae7c49ba3f651) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f651d3e78a8a49dafe0ddcba711f7e') in 0.106470 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/nTools/PrefabPainter/Examples/Materials/Footsteps_red.mat
+  artifactKey: Guid(941ee9c334b1a4efebb5c61885932fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/nTools/PrefabPainter/Examples/Materials/Footsteps_red.mat using Guid(941ee9c334b1a4efebb5c61885932fb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc1b2d88538bb760ad957c0286c316ae') in 0.042723 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SkySeries Freebie/DarkStorm.mat
-  artifactKey: Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000018 seconds.
+  path: Assets/PortalsPackage/MatAndText/Portal#11/Distortion.mat
+  artifactKey: Guid(c4cfbf73e8407674d8d7c1acf23c9883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SkySeries Freebie/DarkStorm.mat using Guid(2039a0ad0a9d05549928b70362f54902) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2dca3996d7f77ff68c6bcc279f95dd') in 0.349909 seconds 
+Start importing Assets/PortalsPackage/MatAndText/Portal#11/Distortion.mat using Guid(c4cfbf73e8407674d8d7c1acf23c9883) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04176f7c657d976a4eb9d22778a53afa') in 0.066900 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/FX_Materials/FX_Grass_01.mat
+  artifactKey: Guid(c7165b5b100ef9749a46b0dfd4a1dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/FX_Materials/FX_Grass_01.mat using Guid(c7165b5b100ef9749a46b0dfd4a1dd28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbb80907c3add81219b101d5ce9aaec3') in 1.514425 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/SkySeries Freebie/CloudedSunGlow.mat
-  artifactKey: Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 3.733463 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/BuildingAlts/HalfBrick_04.mat
+  artifactKey: Guid(76fe32caa2e9fd84a8d820678677361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/SkySeries Freebie/CloudedSunGlow.mat using Guid(e391f00234292cc4f935308c11cf0e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf51b8b16c0b1d71d9c4fa62e053ed8') in 0.279056 seconds 
+Start importing Assets/PolygonAncientEmpire/Materials/BuildingAlts/HalfBrick_04.mat using Guid(76fe32caa2e9fd84a8d820678677361f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44d0c4f74a503dad655bdc59276cad1e') in 0.118252 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PolygonAncientEmpire/Materials/Ivy/Ivy_04.mat
+  artifactKey: Guid(dfa443daca3fcb8499a4dc6c7367d008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/PolygonAncientEmpire/Materials/Ivy/Ivy_04.mat using Guid(dfa443daca3fcb8499a4dc6c7367d008) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0583d61df611c2d58f8d95ec113ded89') in 0.476080 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.471644 seconds.
+  path: Assets/Idyllic Rome/Materials/M_bricks_wall_01.mat
+  artifactKey: Guid(7d4dffed4296b764da9db258db13c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_bricks_wall_01.mat using Guid(7d4dffed4296b764da9db258db13c322) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ffaf9021a301568ff0fe3267ce42ea0') in 0.071430 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.364372 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MATERIALS TILING/cleanstone/Materials/M_cleanstone_diff.mat
+  artifactKey: Guid(4c423b731cfe6bd46bb4a43275c3a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MATERIALS TILING/cleanstone/Materials/M_cleanstone_diff.mat using Guid(4c423b731cfe6bd46bb4a43275c3a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e43dd6fd90ed9da56b771656877fc2') in 0.074441 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Base/Concrete_Mat_01.mat
-  artifactKey: Guid(88f6edebbb6616d498ccf391419d6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.560385 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_cloth_folded_03.fbx
+  artifactKey: Guid(9091ca20ae57c5a40ba3e23aabc626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Base/Concrete_Mat_01.mat using Guid(88f6edebbb6616d498ccf391419d6dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8700b51539811e0f82ed9603f9b50193') in 0.066567 seconds 
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_cloth_folded_03.fbx using Guid(9091ca20ae57c5a40ba3e23aabc626af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52fc82a81759bdc892314975f2e7bfaa') in 0.024939 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_cloth_hanging_01.fbx
+  artifactKey: Guid(1cd455d61ee9a4c49bec6d0689404e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_cloth_hanging_01.fbx using Guid(1cd455d61ee9a4c49bec6d0689404e2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae4a7d0578323035ff08dd7553460ee') in 0.027239 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 6.590946 seconds.
+  path: Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_textures/westroman/Materials/M_colorpallete_roman_alb.mat
+  artifactKey: Guid(0afa1028907a82c468c56132fdd66c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Romans Pack - Low Poly (HA)/MATERIALS/MODEL SPECIFIC/shields_textures/westroman/Materials/M_colorpallete_roman_alb.mat using Guid(0afa1028907a82c468c56132fdd66c0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20609eef8491ccc905bb0c08195ec80a') in 0.039866 seconds 
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/PolygonAncientEmpire/Materials/Base/Carpet_Mat_01.mat
-  artifactKey: Guid(b736a8d6e92df6543ba57651e7eaeb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 1.470426 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_fence_stone_01.fbx
+  artifactKey: Guid(5ee56823caec08848b6bec4ba369180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/PolygonAncientEmpire/Materials/Base/Carpet_Mat_01.mat using Guid(b736a8d6e92df6543ba57651e7eaeb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68eb6d49acbef0414b4963d856ca882') in 0.070298 seconds 
-Number of asset objects unloaded after import = 2
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_fence_stone_01.fbx using Guid(5ee56823caec08848b6bec4ba369180a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9adcad634f73bba20cad9fb4b7b1f6') in 0.029977 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Idyllic Rome/Meshes/Props/SM_fence_marble.fbx
+  artifactKey: Guid(37d7c56c501c82c448f3ad04077592bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Meshes/Props/SM_fence_marble.fbx using Guid(37d7c56c501c82c448f3ad04077592bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3299c2c217f4f3db27bd028a8122af1b') in 0.026555 seconds 
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Idyllic Rome/Materials/M_fence_rome 1.mat
+  artifactKey: Guid(66e526911e7f8e0468e351f89eaea0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Idyllic Rome/Materials/M_fence_rome 1.mat using Guid(66e526911e7f8e0468e351f89eaea0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3ff923379ea274f45ad39450fa57c3a') in 0.045670 seconds 
+Number of asset objects unloaded after import = 3
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting

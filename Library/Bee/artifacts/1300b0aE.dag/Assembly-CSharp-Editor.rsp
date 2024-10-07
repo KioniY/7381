@@ -436,7 +436,6 @@
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.Composer.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aE.dag/VoiceSDK.Telemetry.ref.dll"
-"Assets/FS Loot Boxes/Assets/Editor/LootBoxEditor.cs"
 "Assets/nTools/PrefabPainter/Scripts/Editor/PrafabPainterGUI.cs"
 "Assets/nTools/PrefabPainter/Scripts/Editor/PrefabPainter.cs"
 -langversion:9.0
