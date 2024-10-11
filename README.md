@@ -26,9 +26,9 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
   ### 2. Grab interaction
     - using Grib button on the controller to grab things
   ### 3. Target-Based Exploration
-   - Interactive targets that guide players through the environment by appearing sequentially as players approach.
+    - Interactive targets that guide players through the environment by appearing sequentially as players approach.
   ### 4. Real-Time Feedback
-   - Visual and sound feedback when interacting with objects, providing immersive user interaction. 
+    - Visual and sound feedback when interacting with objects, providing immersive user interaction. 
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
 - **Xinyi Liao** - [GitHub Profile](https://github.com/lxy02230423)
