@@ -21,13 +21,13 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
    - Use the controllers to navigate and interact within the VR environment.
 
 ## Features
-  1.Move via Controller
+  ### 1. Move via Controller
     - right and left sensings to move and turn
-  2.Grab interaction
+  ### 2. Grab interaction
     - using Grib button on the controller to grab things
-  3.Target-Based Exploration
+  ### 3. Target-Based Exploration
    - Interactive targets that guide players through the environment by appearing sequentially as players approach.
-  4. Real-Time Feedback
+  ### 4. Real-Time Feedback
    - Visual and sound feedback when interacting with objects, providing immersive user interaction. 
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
