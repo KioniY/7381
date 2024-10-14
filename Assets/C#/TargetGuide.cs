@@ -1,5 +1,5 @@
 using UnityEngine;
-using UnityEngine.Video;  // 导入Video命名空间
+using UnityEngine.Video;  
 
 public class TargetGuide : MonoBehaviour
 {
