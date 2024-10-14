@@ -1,9 +1,10 @@
 ## Title
 TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
+
 ## Overview
   Our product prototype is a VR educational game designed to help users (especially dyslexic users) learn history in an immersive and engaging way. By harnessing the power of VR technology, we provide users with an interactive experience that reduces reliance on text and makes learning more accessible. The game places users in historically accurate virtual environments, allowing them to explore ancient civilisations such as Rome through visual and auditory storytelling with minimal text. This approach helps dyslexic users engage with historical content in a more intuitive and relaxed way, utilising visual cues and interactions as an alternative to traditional reading methods.
+  
 ## Installation and Setup
-
 ### 1. Set Up the Project in Unity
    - Open Unity Hub.
    - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
@@ -28,7 +29,34 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
   ### 3. Target-Based Exploration
   - Interactive targets that guide players through the environment by appearing sequentially as players approach.
   ### 4. Real-Time Feedback
-  - Visual and sound feedback when interacting with objects, providing immersive user interaction. 
+  - Visual and sound feedback when interacting with objects, providing immersive user interaction.
+    
+## Code Structure
+In this section, we provide an overview of the main scripts used in the project and their respective functions. Each script contributes to the core gameplay mechanics and interactions.
+### 1. **Main Scene**
+   - **Location**: [Main Scene](https://github.com/KioniY/7381/tree/main/Assets/Scenes)
+   - **Description**: This folder contains the main scene of the VR project. The scene serves as the primary environment where users interact with targets, objects, and experience the core gameplay mechanics, including video playback and guided exploration.
+
+### 2. **AudioAndCameraController.cs**
+   - **Location**: [AudioAndCameraController.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/AudioAndCameraController.cs)
+   - **Description**: Manages audio playback and camera movements, including transitions triggered by player actions or environmental events, ensuring smooth camera transitions and immersive sound effects.
+
+### 3. **HandControllerMovement.cs**
+   - **Location**: [HandControllerMovement.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/HandControllerMovement.cs)
+   - **Description**: Manages player movement and rotation using the VR controller's thumbstick. The script moves the camera rig based on the head's forward direction and allows for rotational control via the secondary thumbstick.
+
+### 4. **HornProximity.cs**
+   - **Location**: [HornProximity.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/HornProximity.cs)
+   - **Description**: Plays and stops a horn sound based on the proximity of the player's left or right hand to the horn object. The sound is triggered when either hand is within a specified distance and stops when both hands move
+   - 
+### 5. **SceneController.cs**
+   - **Location**: [SceneController.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/SceneController.cs)
+   - **Description**: Manages the display and fade-out of a whiteboard UI, handles video playback, and controls camera movement and rotation. The script fades out the whiteboard and video after playback ends, then moves and rotates the camera before returning it to its original position.
+
+### 6. **TargetGuide.cs**
+   - **Location**: [TargetGuide.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/TargetGuide.cs)
+   - **Description**: Manages target-based guidance, detecting the proximity of the player's hands to guide them through sequential targets. At the fourth target, the script plays a video on a plane, which hides after the video finishes playing.
+
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
 - **Xinyi Liao** - [GitHub Profile](https://github.com/lxy02230423)
@@ -42,6 +70,7 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
 - Inspired by [Assassin's Creed](https://www.ubisoft.com) for its interactive historical storytelling.
 - Influenced by [Final Fantasy XIV](https://www.finalfantasyxiv.com) for its item fragments and rewards system.
 - Inspired by [Dark Souls 3](https://www.bandainamcoent.com) for its exploration mechanics and fragmented storytelling approach.
+- Background music inspired by [Civilization VI](https://civilization.com/), enhancing the immersive atmosphere of the game.
 
 
 
