@@ -57,6 +57,10 @@ In this section, we provide an overview of the main scripts used in the project 
    - **Location**: [TargetGuide.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/TargetGuide.cs)
    - **Description**: Manages target-based guidance, detecting the proximity of the player's hands to guide them through sequential targets. At the fourth target, the script plays a video on a plane, which hides after the video finishes playing.
 
+### 7. **DialogueTrigger.cs**
+   - **Location**: [DialogueTrigger.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/NPC2/DialogueTrigger.cs)
+   - **Description**: Triggers NPC dialogue when the player's hand approaches a specified target within a set distance. The dialogue is triggered sequentially, with a second line of dialogue from another NPC following after a delay.
+
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
 - **Xinyi Liao** - [GitHub Profile](https://github.com/lxy02230423)
