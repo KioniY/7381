@@ -4,26 +4,38 @@ using UnityEngine;
 
 public class GuideAudioController : MonoBehaviour
 {
-    public  AudioSource audioSource;
-
+    public AudioSource audioSource;
     public AudioClip[] guideAudios;
-    // Start is called before the first frame update
+
+    // record played audio
+    private bool[] hasPlayed; 
 
     public static GuideAudioController Instance;
+
     void Start()
     {
         Instance = this;
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
         
+        hasPlayed = new bool[guideAudios.Length];
     }
 
+   
     public void PlayAudio(int i)
     {
-        audioSource.clip = guideAudios[i];
-        audioSource.Play();
+        // check if is played
+        if (!hasPlayed[i])
+        {
+            audioSource.clip = guideAudios[i];
+            audioSource.Play();
+
+            // mark played audio
+            hasPlayed[i] = true;
+            Debug.Log("Playing audio: " + i);
+        }
+        else
+        {
+            Debug.Log("Audio " + i + " has already been played.");
+        }
     }
 }
