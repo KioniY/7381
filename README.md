@@ -2,9 +2,10 @@
 TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
 
 ## Overview
-  Our product prototype is a VR educational game designed to help users (especially dyslexic users) learn history in an immersive and engaging way. By harnessing the power of VR technology, we provide users with an interactive experience that reduces reliance on text and makes learning more accessible. The game places users in historically accurate virtual environments, allowing them to explore ancient civilisations such as Rome through visual and auditory storytelling with minimal text. This approach helps dyslexic users engage with historical content in a more intuitive and relaxed way, utilising visual cues and interactions as an alternative to traditional reading methods.
+Our product prototype is a VR educational game designed to help users (especially dyslexic users) learn history in an immersive and engaging way. By harnessing the power of VR technology, we provide users with an interactive experience that reduces reliance on text and makes learning more accessible. The game places users in historically accurate virtual environments, allowing them to explore ancient civilisations such as Rome through visual and auditory storytelling with minimal text. This approach helps dyslexic users engage with historical content in a more intuitive and relaxed way, utilising visual cues and interactions as an alternative to traditional reading methods.
   
 ## Installation and Setup
+There are two ways to open our project:
 ### 1. Set Up the Project in Unity
    - Open Unity Hub.
    - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
@@ -20,6 +21,12 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
 ### 4. Put on the Headset
    - Once the build is completed, put on the Meta Quest headset to experience the VR application.
    - Use the controllers to navigate and interact within the VR environment.
+
+### 1. Upload apk file to Meta Quest Link or SideQuest 
+### 2. Install APK file from folder on computer
+### 3. Click the filter dropdown list on top right
+  - Find app inside Quest 2's APP library
+  - Select Unknown Sources
 
 ## Features
   ### 1. Move via Controller
@@ -48,7 +55,7 @@ In this section, we provide an overview of the main scripts used in the project 
 ### 4. **HornProximity.cs**
    - **Location**: [HornProximity.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/HornProximity.cs)
    - **Description**: Plays and stops a horn sound based on the proximity of the player's left or right hand to the horn object. The sound is triggered when either hand is within a specified distance and stops when both hands move
-   - 
+     
 ### 5. **SceneController.cs**
    - **Location**: [SceneController.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/SceneController.cs)
    - **Description**: Manages the display and fade-out of a whiteboard UI, handles video playback, and controls camera movement and rotation. The script fades out the whiteboard and video after playback ends, then moves and rotates the camera before returning it to its original position.
