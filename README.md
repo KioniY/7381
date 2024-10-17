@@ -39,7 +39,7 @@ There are two ways to open our project in VR device:
   ### 1. Move via Controller
   - right and left sensings to move and turn
   ### 2. Grab interaction
-  - using Grib button on the controller to grab things
+  - using the Grib button on the controller to grab things
   ### 3. Target-Based Exploration
   - Interactive targets that guide players through the environment by appearing sequentially as players approach.
   ### 4. Real-Time Feedback
@@ -74,6 +74,10 @@ In this section, we provide an overview of the main scripts used in the project 
 ### 7. **NPCMovementLoop.cs**
   - **Location**: [NPCMovementLoop.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/Scenes/SampleScene/NPCMovementLoop.cs)
   - **Description**: This script manages the movement loop of an NPC between two points using Unity's NavMesh system. The NPC is hidden for the first 12 seconds and then reappears, starting its movement to a designated target point. After reaching the target point, the NPC hides again, waits for a specified time, and returns to the start point to repeat the loop.
+
+### 8. **Dia.cs**
+  - **Location**: [Dia.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/Dia.cs)
+  - **Description**: When the player's hand approaches the specified target and reaches the preset distance, the NPC's dialogue text will be triggered. The dialogue text will be displayed one by one in a preset order. After the first line of text appears, the player needs to press the A button on the joystick to switch to and display the next line of dialogue, ensuring that the player can experience the complete dialogue process interactively and step by step.
 
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
