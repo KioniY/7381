@@ -76,8 +76,8 @@ In this section, we provide an overview of the main scripts used in the project 
    - **Description**: Triggers NPC dialogue when the player's hand approaches a specified target within a set distance. The dialogue is triggered sequentially, with a second line of dialogue from another NPC following after a delay.
 
 ### 8. **NPCMovementLoop.cs**
-**Location**: [NPCMovementLoop.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/Scenes/SampleScene/NPCMovementLoop.cs)
-**Description**: This script manages the movement loop of an NPC between two points using Unity's NavMesh system. The NPC is hidden for the first 12 seconds and then reappears, starting its movement to a designated target point. After reaching the target point, the NPC hides again, waits for a specified time, and returns to the start point to repeat the loop.
+  - **Location**: [NPCMovementLoop.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/Scenes/SampleScene/NPCMovementLoop.cs)
+  - **Description**: This script manages the movement loop of an NPC between two points using Unity's NavMesh system. The NPC is hidden for the first 12 seconds and then reappears, starting its movement to a designated target point. After reaching the target point, the NPC hides again, waits for a specified time, and returns to the start point to repeat the loop.
 
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)
