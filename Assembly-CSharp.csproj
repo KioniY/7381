@@ -60,7 +60,6 @@
     <Compile Include="Assets\C#\GuideAudioController.cs" />
     <Compile Include="Assets\NPC\Polytope Studio\Lowpoly_Characters\Sources\Scripts\PT_Create_Prefab.cs" />
     <Compile Include="Assets\NPC\Scenes\Armors_Free_Pack\PersonController.cs" />
-    <Compile Include="Assets\NPC\NPC2\DialogueTrigger.cs" />
     <Compile Include="Assets\NPC\Scenes\SampleScene\NPCMovementLoop.cs" />
     <Compile Include="Assets\C#\AudioAndCameraController.cs" />
     <Compile Include="Assets\PortalsPackage\ScriptsAndShaders\PortalFX_Turbulence.cs" />

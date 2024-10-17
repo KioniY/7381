@@ -15,7 +15,7 @@ D:/unity/prototype/7381
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51852
+54054
 Successfully changed project path to: D:/unity/prototype/7381
 D:/unity/prototype/7381
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,13 +47,13 @@ D:/unity/prototype/7381
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10644] Host "[IP] 10.89.90.35 [Port] 0 [Flags] 2 [Guid] 608193388 [EditorId] 608193388 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [8544] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 857373781 [EditorId] 857373781 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10644] Host "[IP] 10.89.90.35 [Port] 0 [Flags] 2 [Guid] 608193388 [EditorId] 608193388 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [8544] Host "[IP] 10.70.92.119 [Port] 0 [Flags] 2 [Guid] 857373781 [EditorId] 857373781 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-SGLN2ASP) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 239.39 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 2.79 ms.
+Refreshing native plugins compatible for Editor in 127.41 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 1.84 ms.
 Initialize engine version: 2021.3.40f1 (6fcab7dbbbc1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/unity/prototype/7381/Assets
@@ -70,53 +70,54 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56688
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.040827 seconds.
+Registered in 0.010550 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 576 ms
-Refreshing native plugins compatible for Editor in 174.17 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 0.11 ms.
+Android Extension - Scanning For ADB Devices 1755 ms
+Refreshing native plugins compatible for Editor in 115.37 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.09 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.987 seconds
+- Completed reload, in  2.361 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1988ms)
-		BeginReloadAssembly (244ms)
+	ReloadAssembly (2362ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1481ms)
-			LoadAssemblies (234ms)
+		EndReloadAssembly (2186ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (82ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (1085ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (2046ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (764ms)
+				InitializePlatformSupportModulesInManaged (1830ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (174ms)
+				RefreshPlugins (116ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (96ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
+				ProcessInitializeOnLoadAttributes (68ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.009175 seconds.
+Registered in 0.007833 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 141.31 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
+Refreshing native plugins compatible for Editor in 169.45 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.13 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -140,51 +141,51 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.966 seconds
+- Completed reload, in  2.009 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1966ms)
-		BeginReloadAssembly (191ms)
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (172ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1627ms)
-			LoadAssemblies (201ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (1720ms)
+			LoadAssemblies (151ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (413ms)
+			SetupTypeCache (311ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (88ms)
-			SetupLoadedEditorAssemblies (968ms)
+			RebuildScriptCaches (179ms)
+			SetupLoadedEditorAssemblies (1084ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (28ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (141ms)
-				BeforeProcessingInitializeOnLoad (126ms)
-				ProcessInitializeOnLoadAttributes (615ms)
-				ProcessInitializeOnLoadMethodAttributes (51ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				RefreshPlugins (170ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (655ms)
+				ProcessInitializeOnLoadMethodAttributes (64ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
-Refreshing native plugins compatible for Editor in 1.67 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.64 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.09 ms.
 Unloading 6521 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 102 unused Assets / (0.7 MB). Loaded Objects now: 6999.
 Memory consumption went from 356.9 MB to 356.2 MB.
-Total: 4.903600 ms (FindLiveObjects: 0.359500 ms CreateObjectMapping: 0.245600 ms MarkObjects: 4.094700 ms  DeleteObjects: 0.202700 ms)
+Total: 4.105300 ms (FindLiveObjects: 0.392200 ms CreateObjectMapping: 0.255200 ms MarkObjects: 3.242700 ms  DeleteObjects: 0.213700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -201,37 +202,54 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1475.829515 seconds.
-  path: Assets/New Terrain 1.asset
-  artifactKey: Guid(90fbe14cd543542eda5cca99856102a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 12029.339656 seconds.
+  path: Assets/NPC/NPC2/PT_Lowpoly_Armors_Female_Moduar_Free (4).prefab
+  artifactKey: Guid(9a5dde81d052141acb82b93f1705215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/New Terrain 1.asset using Guid(90fbe14cd543542eda5cca99856102a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '061de42fc674f4853400ffe6d71f5598') in 0.103210 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/NPC/NPC2/PT_Lowpoly_Armors_Female_Moduar_Free (4).prefab using Guid(9a5dde81d052141acb82b93f1705215b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555d96d3385d9a11926455866abc75c3') in 0.127609 seconds 
+Number of asset objects unloaded after import = 297
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/ends1.mp4
-  artifactKey: Guid(0adc040fd88e87743ac1a1bbe1731c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 0.000025 seconds.
+  path: Assets/NPC/NPC2/DialogueTrigger.cs
+  artifactKey: Guid(49815edecd7864563afc5b3049375c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/ends1.mp4 using Guid(0adc040fd88e87743ac1a1bbe1731c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d85b4637902a3a0e77a088dbce0510') in 0.017604 seconds 
-Number of asset objects unloaded after import = 1
+Start importing Assets/NPC/NPC2/DialogueTrigger.cs using Guid(49815edecd7864563afc5b3049375c45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23764346739c9d30d1067453516ab84') in 0.030127 seconds 
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/New Terrain.asset
-  artifactKey: Guid(da90cb773022247629a48938eb2ee9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+  Time since last request: 8.888295 seconds.
+  path: Assets/NPC/PT_Lowpoly_Armors_Female_Moduar_Free (3).prefab
+  artifactKey: Guid(bbbbef0aba4e349f69b6794cedc0ea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Number of updated assets reloaded before import = 0
-Start importing Assets/New Terrain.asset using Guid(da90cb773022247629a48938eb2ee9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d098d0409b6bc84f13c3704f259b48') in 0.028012 seconds 
+Start importing Assets/NPC/PT_Lowpoly_Armors_Female_Moduar_Free (3).prefab using Guid(bbbbef0aba4e349f69b6794cedc0ea8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6411db33405388932b6c5c349fb6d7e2') in 0.032433 seconds 
+Number of asset objects unloaded after import = 297
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/NPC/PT_Lowpoly_Armors_Male_Moduar_Free (5).prefab
+  artifactKey: Guid(513f032bd76e04f1b8ca9aaa47ed6505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/NPC/PT_Lowpoly_Armors_Male_Moduar_Free (5).prefab using Guid(513f032bd76e04f1b8ca9aaa47ed6505) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eea354c76b8f54e8db359eaab6275a9') in 0.037639 seconds 
+Number of asset objects unloaded after import = 305
+========================================================================
+Received Import Request.
+  Time since last request: 4.783979 seconds.
+  path: Assets/Material/New Material.mat
+  artifactKey: Guid(815518ee5ac81c548ad9b35212a36c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Material/New Material.mat using Guid(815518ee5ac81c548ad9b35212a36c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f96d9f01791490e9a904877ad428573') in 0.139538 seconds 
 Number of asset objects unloaded after import = 1
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.009536 seconds.
+Registered in 0.007953 seconds.
 Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.87 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.07 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -258,48 +276,138 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.703 seconds
+- Completed reload, in  1.309 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1704ms)
-		BeginReloadAssembly (246ms)
+	ReloadAssembly (1309ms)
+		BeginReloadAssembly (166ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (1347ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (132ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (293ms)
+			SetupTypeCache (266ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (811ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (609ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (27ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (588ms)
-				ProcessInitializeOnLoadMethodAttributes (80ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (463ms)
+				ProcessInitializeOnLoadMethodAttributes (37ms)
+				AfterProcessingInitializeOnLoad (16ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
-Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
 Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
-Refreshing native plugins compatible for Editor in 2.05 ms, found 19 plugins.
-Preloading 3 native plugins for Editor in 0.10 ms.
-Unloading 6404 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (0.6 MB). Loaded Objects now: 7004.
-Memory consumption went from 346.2 MB to 345.5 MB.
-Total: 5.739100 ms (FindLiveObjects: 0.439200 ms CreateObjectMapping: 0.280000 ms MarkObjects: 4.742900 ms  DeleteObjects: 0.275400 ms)
+Refreshing native plugins compatible for Editor in 1.60 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 96 unused Assets / (0.6 MB). Loaded Objects now: 7043.
+Memory consumption went from 359.1 MB to 358.5 MB.
+Total: 4.227600 ms (FindLiveObjects: 0.359200 ms CreateObjectMapping: 0.232300 ms MarkObjects: 3.455500 ms  DeleteObjects: 0.179700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006967 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 2.00 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.09 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in D:\unity\prototype\7381\Library\PackageCache\com.unity.xr.oculus@3.4.0\Runtime\OculusLoader.cs:287 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x00084] in D:\unity\prototype\7381\Library\PackageCache\com.unity.xr.oculus@3.4.0\Runtime\OculusLoader.cs:272 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <3aa98f447c32440abc2affef8f2fd6a0>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <3aa98f447c32440abc2affef8f2fd6a0>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <3aa98f447c32440abc2affef8f2fd6a0>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <58158fa5247e42af9544990ea0885e7f>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1304ms)
+		BeginReloadAssembly (151ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1073ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (270ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (23ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (77ms)
+				ProcessInitializeOnLoadAttributes (451ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Particles_Erosion_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Shader 'SH_Vefects_VFX_URP_Fire_Flames_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'SH_Vefects_VFX_URP_Heat_Haze_01': fallback shader 'Hidden/Shader Graph/FallbackError' not found
+Shader 'Meta/MRUK/Scene/HighlightsAndShadows': fallback shader 'Off' not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 19 plugins.
+Preloading 3 native plugins for Editor in 0.08 ms.
+Unloading 6403 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (0.6 MB). Loaded Objects now: 7047.
+Memory consumption went from 359.2 MB to 358.5 MB.
+Total: 4.137900 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.289500 ms MarkObjects: 3.299500 ms  DeleteObjects: 0.192000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
