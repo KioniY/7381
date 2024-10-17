@@ -5,27 +5,41 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
   Our product prototype is a VR educational game designed to help users (especially dyslexic users) learn history in an immersive and engaging way. By harnessing the power of VR technology, we provide users with an interactive experience that reduces reliance on text and makes learning more accessible. The game places users in historically accurate virtual environments, allowing them to explore ancient civilisations such as Rome through visual and auditory storytelling with minimal text. This approach helps dyslexic users engage with historical content in a more intuitive and relaxed way, utilising visual cues and interactions as an alternative to traditional reading methods.
   
 ## Installation and Setup
+There are two ways to open our project:
 ### 1. Set Up the Project in Unity
    - Open Unity Hub.
    - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
    - Once the project is added, open it in Unity.
+#### 2. Active simulator
+  - Select **Oculus**
+  - Switch simulator to **Active**
 
-### 2. Link VR Headset (Meta Quest)
+### Open via VR headset
+There are two ways to open our project in VR device:
+#### 1. Set Up the Project in Unity
+   - Open Unity Hub.
+   - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
+   - Once the project is added, open it in Unity.
+#### 2. Link VR Headset (Meta Quest)
    - Connect VR headset to computer
-   - allow USB connect in your VR headset
-   
-### 3. Build and Run the Project
-   - In Unity, open **Oculus > OVR Build and Run**.
-     
-### 4. Put on the Headset
+   - allow USB connect in your VR headset   
+#### 3. Build and Run the Project
+   - In Unity, open **Oculus > OVR Build and Run**.     
+#### 4. Put on the Headset
    - Once the build is completed, put on the Meta Quest headset to experience the VR application.
    - Use the controllers to navigate and interact within the VR environment.
+
+### 1. Upload apk file to Meta Quest Link or SideQuest 
+### 2. Install APK file from folder on computer
+### 3. Click the filter dropdown list on top right
+  - Find app inside Quest 2's APP library
+  - Select Unknown Sources
 
 ## Features
   ### 1. Move via Controller
   - right and left sensings to move and turn
   ### 2. Grab interaction
-  - using Grib button on the controller to grab things
+  - using the Grib button on the controller to grab things
   ### 3. Target-Based Exploration
   - Interactive targets that guide players through the environment by appearing sequentially as players approach.
   ### 4. Real-Time Feedback
@@ -57,9 +71,13 @@ In this section, we provide an overview of the main scripts used in the project 
    - **Location**: [TargetGuide.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/TargetGuide.cs)
    - **Description**: Manages target-based guidance, detecting the proximity of the player's hands to guide them through sequential targets. At the fourth target, the script plays a video on a plane, which hides after the video finishes playing.
 
-### 7. **DialogueTrigger.cs**
-   - **Location**: [DialogueTrigger.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/NPC2/DialogueTrigger.cs)
-   - **Description**: Triggers NPC dialogue when the player's hand approaches a specified target within a set distance. The dialogue is triggered sequentially, with a second line of dialogue from another NPC following after a delay.
+### 7. **NPCMovementLoop.cs**
+  - **Location**: [NPCMovementLoop.cs](https://github.com/KioniY/7381/blob/main/Assets/NPC/Scenes/SampleScene/NPCMovementLoop.cs)
+  - **Description**: This script manages the movement loop of an NPC between two points using Unity's NavMesh system. The NPC is hidden for the first 12 seconds and then reappears, starting its movement to a designated target point. After reaching the target point, the NPC hides again, waits for a specified time, and returns to the start point to repeat the loop.
+
+### 8. **Dia.cs**
+  - **Location**: [Dia.cs](https://github.com/KioniY/7381/blob/main/Assets/C%23/Dia.cs)
+  - **Description**: When the player's hand approaches the specified target and reaches the preset distance, the NPC's dialogue text will be triggered. The dialogue text will be displayed one by one in a preset order. After the first line of text appears, the player needs to press the A button on the joystick to switch to and display the next line of dialogue, ensuring that the player can experience the complete dialogue process interactively and step by step.
 
 ## Authors
 - **Qihong Yang** - [GitHub Profile](https://github.com/KioniY)

@@ -4,16 +4,16 @@ using UnityEngine.AI;
 
 public class NPCMovementLoop : MonoBehaviour
 {
-    public Transform startPoint; // 起始位置
-    public Transform targetPoint; // 目标位置
-    public float waitTimeAtTarget = 0.0f; // 到达目标后等待的时间
-    public float startDelay = 12.0f; // 延迟时间，12秒后开始
+    public Transform startPoint; // initial position
+    public Transform targetPoint; // target location
+    public float waitTimeAtTarget = 0.0f; // The waiting time after reaching the target
+    public float startDelay = 12.0f; // Delay time, starting in 12 seconds
 
     private NavMeshAgent agent;
     private Animator animator;
-    private MeshRenderer[] meshRenderers; // 存储MeshRenderers以控制显示
-    private bool isWaiting = false; // 是否在等待
-    private float waitTimer = 0f; // 计时器
+    private MeshRenderer[] meshRenderers; // Store MeshRenderers to control the display
+    private bool isWaiting = false; 
+    private float waitTimer = 0f; // timer
 
     void Start()
     {
@@ -21,11 +21,11 @@ public class NPCMovementLoop : MonoBehaviour
         animator = GetComponent<Animator>();
         meshRenderers = GetComponentsInChildren<MeshRenderer>();
 
-        // 禁用移动和动画，等待12秒后再启用
+        // Disable movement and animation and wait 12 seconds before enabling it
         agent.enabled = false;
-        animator.SetFloat("Speed", 0f); // 禁用动画一开始的播放
+        animator.SetFloat("Speed", 0f); // Disables the initial playback of the animation
 
-        // 开始计时，12秒后移动NPC并启动动画
+        // Start the timer, after 12 seconds move the NPC and start the animation
         StartCoroutine(DelayedStartMovement());
     }
 
@@ -33,26 +33,26 @@ public class NPCMovementLoop : MonoBehaviour
     {
         if (agent.enabled)
         {
-            // 更新动画的Speed参数
+            // Update the Speed parameter of the animation
             float speed = agent.velocity.magnitude;
-            animator.SetFloat("Speed", speed); // 设置Speed以控制跑步动画
+            animator.SetFloat("Speed", speed); // Set Speed to control the running animation
 
-            // 检查是否到达目标点
+            // Check whether the target point has been reached
             if (!agent.pathPending && agent.remainingDistance < 0.5f && !isWaiting)
             {
-                // 到达目标点，开始等待并消失
+                // Reach the target point, start to wait and disappear
                 isWaiting = true;
                 waitTimer = waitTimeAtTarget;
-                HideNPC(); // 隐藏NPC，但保持其活动状态
+                HideNPC(); // Hide NPCS, but keep them active
             }
 
-            // 如果正在等待，则倒计时
+            // If waiting, count down
             if (isWaiting)
             {
                 waitTimer -= Time.deltaTime;
                 if (waitTimer <= 0)
                 {
-                    // 等待结束，重新出现并从起点出发
+                    // Wait for the end, reappear and start from the beginning
                     ReappearAtStart();
                     isWaiting = false;
                 }
@@ -60,25 +60,25 @@ public class NPCMovementLoop : MonoBehaviour
         }
     }
 
-    // 延迟12秒后开始移动NPC并启用动画
+    // Start moving NPCS and animate them after a delay of 12 seconds
     IEnumerator DelayedStartMovement()
     {
-        yield return new WaitForSeconds(startDelay); // 延迟12秒
-        agent.enabled = true; // 启用NavMeshAgent
-        animator.SetFloat("Speed", 1f); // 开始动画的播放
+        yield return new WaitForSeconds(startDelay); // Delay 12 seconds
+        agent.enabled = true; // Enable NavMeshAgent
+        animator.SetFloat("Speed", 1f); // Start the animation
         StartMovement();
     }
 
     void StartMovement()
     {
-        // 设置新的目标为targetPoint
+        // Set the new target to targetPoint
         agent.SetDestination(targetPoint.position);
-        ShowNPC(); // 显示NPC
+        ShowNPC(); // Displays NPC
     }
 
     void HideNPC()
     {
-        // 隐藏NPC的可见性，但保持对象活跃状态
+        // Hide the NPC's visibility, but keep the object active
         foreach (var renderer in meshRenderers)
         {
             renderer.enabled = false;
@@ -87,18 +87,18 @@ public class NPCMovementLoop : MonoBehaviour
 
     void ReappearAtStart()
     {
-        // 让NPC重新出现在起始位置
+        // Make the NPC reappear in the starting position
         foreach (var renderer in meshRenderers)
         {
             renderer.enabled = true;
         }
-        transform.position = startPoint.position; // 重置到起始位置
-        StartMovement(); // 再次移动到目标点
+        transform.position = startPoint.position; // Reset to the starting position
+        StartMovement(); // Move to the target point again
     }
 
     void ShowNPC()
     {
-        // 显示NPC
+        // Displays NPC
         foreach (var renderer in meshRenderers)
         {
             renderer.enabled = true;
