@@ -5,26 +5,33 @@ TimeDrift: Echoes of Eternity - Learning History in VR for dyslexics
 Our product prototype is a VR educational game designed to help users (especially dyslexic users) learn history in an immersive and engaging way. By harnessing the power of VR technology, we provide users with an interactive experience that reduces reliance on text and makes learning more accessible. The game places users in historically accurate virtual environments, allowing them to explore ancient civilisations such as Rome through visual and auditory storytelling with minimal text. This approach helps dyslexic users engage with historical content in a more intuitive and relaxed way, utilising visual cues and interactions as an alternative to traditional reading methods.
   
 ## Installation and Setup
-There are two ways to open our project:
-### 1. Set Up the Project in Unity
+### Open via Unity oculus simulator
+#### 1. Set Up the Project in Unity
    - Open Unity Hub.
    - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
    - Once the project is added, open it in Unity.
+#### 2. Active simulator
+  - Select **Oculus**
+  - Switch simulator to **Active**
 
-### 2. Link VR Headset (Meta Quest)
+### Open via VR headset
+There are two ways to open our project in VR device:
+#### 1. Set Up the Project in Unity
+   - Open Unity Hub.
+   - Click on **Add** and navigate to the project folder on your desktop (or the location where the project is stored).
+   - Once the project is added, open it in Unity.
+#### 2. Link VR Headset (Meta Quest)
    - Connect VR headset to computer
-   - allow USB connect in your VR headset
-   
-### 3. Build and Run the Project
-   - In Unity, open **Oculus > OVR Build and Run**.
-     
-### 4. Put on the Headset
+   - allow USB connect in your VR headset   
+#### 3. Build and Run the Project
+   - In Unity, open **Oculus > OVR Build and Run**.     
+#### 4. Put on the Headset
    - Once the build is completed, put on the Meta Quest headset to experience the VR application.
    - Use the controllers to navigate and interact within the VR environment.
 
-### 1. Upload apk file to Meta Quest Link or SideQuest 
-### 2. Install APK file from folder on computer
-### 3. Click the filter dropdown list on top right
+#### 1. Upload apk file to Meta Quest Link or SideQuest 
+#### 2. Install APK file from folder on computer
+#### 3. Click the filter dropdown list on top right
   - Find app inside Quest 2's APP library
   - Select Unknown Sources
 
